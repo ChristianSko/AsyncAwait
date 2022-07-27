@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		7EED9150289114A20019DEAF /* AsyncAwaitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED914F289114A20019DEAF /* AsyncAwaitApp.swift */; };
-		7EED9152289114A20019DEAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED9151289114A20019DEAF /* ContentView.swift */; };
+		7EED9152289114A20019DEAF /* AsyncAwaitExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED9151289114A20019DEAF /* AsyncAwaitExample.swift */; };
 		7EED9154289114A50019DEAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EED9153289114A50019DEAF /* Assets.xcassets */; };
 		7EED9157289114A50019DEAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EED9156289114A50019DEAF /* Preview Assets.xcassets */; };
+		7EED915E289126540019DEAF /* DispatchQueueExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED915D289126540019DEAF /* DispatchQueueExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7EED914C289114A20019DEAF /* AsyncAwait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncAwait.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EED914F289114A20019DEAF /* AsyncAwaitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitApp.swift; sourceTree = "<group>"; };
-		7EED9151289114A20019DEAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7EED9151289114A20019DEAF /* AsyncAwaitExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitExample.swift; sourceTree = "<group>"; };
 		7EED9153289114A50019DEAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EED9156289114A50019DEAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7EED915D289126540019DEAF /* DispatchQueueExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				7EED914F289114A20019DEAF /* AsyncAwaitApp.swift */,
-				7EED9151289114A20019DEAF /* ContentView.swift */,
+				7EED9151289114A20019DEAF /* AsyncAwaitExample.swift */,
+				7EED915D289126540019DEAF /* DispatchQueueExample.swift */,
 				7EED9153289114A50019DEAF /* Assets.xcassets */,
 				7EED9155289114A50019DEAF /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EED9152289114A20019DEAF /* ContentView.swift in Sources */,
+				7EED9152289114A20019DEAF /* AsyncAwaitExample.swift in Sources */,
 				7EED9150289114A20019DEAF /* AsyncAwaitApp.swift in Sources */,
+				7EED915E289126540019DEAF /* DispatchQueueExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
